@@ -284,8 +284,8 @@ def main(db_config):
 if __name__ == "__main__":
     db_config = {
         'host': 'localhost',
-        'user': 'root',
-        'password': 'Karan@123',
-        'database': 'web_scraper_v2'
+        'user': 'user',
+        'password': 'password',
+        'database': 'database'
     }
     main(db_config)
